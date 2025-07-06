@@ -4,3 +4,41 @@ x=10
 # Access the variable using $vari or ${vari}
 echo value of $x  #or
 echo value of ${x}
+
+# Way to take input from user
+#       before script
+# LHS   script   RHS
+
+# Before script ---> Environment variables
+# LHS  ----->
+# RHS  ----->     Special variables
+
+
+## Before script ---> Environment variables
+echo Env variable - a_env - ${a_env}
+
+# On CLI you can send the value of the variable  using the following command:
+# export a_env=383(value)
+# bash (directory_name)
+
+## LHS
+echo LHS variable - a_lhs - ${a_lhs}
+# on cli you can send the value of the variable using the following command:
+# a_lhs=999(value)  bash (directory_name)
+
+
+
+## RHS ----> special variable
+# $1 means first value of RHS
+# $2 means second value of RHS
+# $# means total(count) number of value
+# $* means All values
+
+
+echo first value - $1
+echo second value - $2
+echo all value - $*
+echo number of value - $#
+
+# on cli we can access the value by following command:
+#  bash (directory_name) (value)
