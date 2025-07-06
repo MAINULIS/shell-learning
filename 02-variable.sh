@@ -42,3 +42,15 @@ echo number of value - $#
 
 # on cli we can access the value by following command:
 #  bash (directory_name) (value)
+
+## Variable substitution
+# syntax: vari=$(command)
+DATE=(date)
+echo Date - $DATE
+
+## Arithmetic substitution
+# syntax: vari=((expression))
+ADD=$((2+4))
+echo added value - $ADD
+
+## we can use a-z & A-Z & 0-9 as variable name
