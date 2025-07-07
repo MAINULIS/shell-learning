@@ -1,6 +1,6 @@
 ## Case statement
 case ${1,,} in
- u@ser | Mainul )
+  Mainul | username )
   echo "You are the boss here, welcome!" ;;
 help )
   echo "Just enter your user name!" ;;
