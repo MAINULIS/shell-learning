@@ -49,7 +49,7 @@ DATE=(date)
 echo Date - $DATE
 
 ## Arithmetic substitution
-# syntax: vari=((expression))
+# syntax: vari=$((expression))
 ADD=$((2+4))
 echo added value - $ADD
 
