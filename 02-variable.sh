@@ -63,3 +63,4 @@ if [ ${1,, } = Mainul ]; then
   elif [ ${1,, } ]; then
     echo "Just enter your uName!"
     else echo "I don't know you!"
+fi
