@@ -45,7 +45,7 @@ echo number of value - $#
 
 ## Variable substitution
 # syntax: vari=$(command)
-DATE=(date)
+DATE=$(date)
 echo Date - $DATE
 
 ## Arithmetic substitution
