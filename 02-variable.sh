@@ -52,5 +52,6 @@ echo Date - $DATE
 # syntax: vari=$((expression))
 ADD=$((2+4))
 echo added value - $ADD
-
+substract=$((700-98))
+echo present value - $substract
 ## we can use a-z & A-Z & 0-9 as variable name
