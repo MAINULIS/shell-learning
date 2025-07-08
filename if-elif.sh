@@ -28,6 +28,6 @@ if [ ${1,, } = Mainul ]; then
 fi
 
 x=90
-if [ $a -lt 100 ]; then
+if [[ $a -lt 100 ]]; then
  echo $a is less than 100
 fi
