@@ -8,7 +8,7 @@
 sample(){
 echo sample function
 }
-
+f
 # call a function: function_name
 sample
 
@@ -22,6 +22,8 @@ demo
 
 abc1(){
   echo value of a - $a
+  echo value of a - $b
 }
 a=65
+b=70
 abc1
