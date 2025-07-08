@@ -41,3 +41,14 @@ if [[ -z "$a" ]]; then
 fi
 
 ### Note: In expression specially in string variable should be inside " ".
+
+## 3. File Test Operators:
+# -e: True if the file exists
+# -f: True if the file exists and is a regular file
+# -d: True if the file exists and is a directory
+# -r: True if the file exists and is readable
+# -w: True if the file exists and is writable
+# -x: True if the file exists and is executable
+if [[ -f "/path/to/my_file.txt" ]]; then
+    echo "my_file.txt is a regular file"
+fi
