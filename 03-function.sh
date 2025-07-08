@@ -23,7 +23,11 @@ demo
 abc1(){
   echo value of a - $a
   echo value of a - $b
+  echo first argument - $1
+  echo second argument - $2
+  echo all argument - $*
+  echo arguments count - $#
 }
 a=65
 b=70
-abc1
+abc1 99 999
