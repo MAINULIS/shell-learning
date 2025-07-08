@@ -14,3 +14,14 @@ sample
 
 source common.sh
 demo
+
+## variables declared in out side of functions can be accessible inside function and vice-versa
+
+#      Before function
+# LHS   function   RHS
+
+abc1(){
+  echo value of a - $a
+}
+a=65
+abc1
