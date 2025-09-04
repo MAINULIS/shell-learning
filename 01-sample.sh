@@ -1,6 +1,7 @@
 ls
 ls -l
 pwd
-cat
 sudo -i
 ps
+ps -ef
+ss -lntp
